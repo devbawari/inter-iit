@@ -1,4 +1,4 @@
-const godown=require('../models/Godown.js');
+const godown= require('../models/Godown.js');
 exports.getGodowns=async(req,res)=>{
     try{
         const godowns=await godown.find({parent_godown:null});
