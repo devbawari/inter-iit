@@ -3,9 +3,7 @@ const cors = require('cors');
 const cookieParser=require('cookie-parser');
 const app = express();
 const dotenv = require('dotenv');
-require("dotenv").config({path: "backend/config/.env"});
-
-const mongoose = require('mongoose');
+dotenv.config({ path: './config/.env' });
 const { connectDatabase } = require('./config/database');
 const items = require('./routes/item.js');
 const godown=require('./routes/godown.js');
