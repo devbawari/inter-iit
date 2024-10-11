@@ -1,0 +1,23 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.outer
+{
+    background-color: rgb(51, 52, 60);
+    margin:0px;
+}
+.m
+{
+    
+    display: flex;
+width: 100%;
+min-height:100vh ;
+    align-items: start;
+    justify-content: space-around;
+    background-color: rgb(51, 52, 60);
+}
+
+
